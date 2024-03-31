@@ -40,8 +40,33 @@
 
        //functions in arrays
        
-       //sort()
-       $fruits = array("apple", "mango", "pineapple", "banana");
-       sort($fruits);
-       print_r($fruits);
+       //sort() //sort in acceding order
+    //    $fruits = array("apple", "mango", "pineapple", "banana");
+    //    sort($fruits);
+    //    print_r($fruits);
+
+    // rsort() //sort in descending order
+    // $fruits = array("apple", "mango", "pineapple", "banana");
+    //    rsort($fruits);
+    //    print_r($fruits);
+
+    //asort() to sort associative arrays d values associated with the key value would be sorted in acceding order
+    // $data = array("praise" => "csc", "basil" => "acc");
+    // asort($data);
+    // print_r($data)
+
+    //ksort() sort the keys in acceding value
+    // $data = array("praise" => "csc", "basil" => "acc");
+    // ksort($data);
+    // print_r($data)
+
+    //arsort() to sort the values in decending order
+    // $data = array("praise" => "csc", "basil" => "acc");
+    // arsort($data);
+    // print_r($data)
+
+        //krsort() to sort the keys in decending order
+        $data = array("praise" => "csc", "basil" => "acc");
+        krsort($data);
+        print_r($data)
 ?>
